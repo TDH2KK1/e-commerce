@@ -6,13 +6,13 @@
         "use": "@vercel/static-build"
       }
     ],
+    "buildCommand": "npm run build",
+    "outputDirectory": "dist",
     "routes": [
       {
         "src": "/(.*)",
         "dest": "/index.html"
       }
-    ],
-    "buildCommand": "npm run build",
-    "outputDirectory": "dist"
+    ]
   }
   
